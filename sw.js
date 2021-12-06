@@ -1,4 +1,4 @@
-const CACHE_NAME = 'offline';
+const CACHE_NAME = 'offlineofths';
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
