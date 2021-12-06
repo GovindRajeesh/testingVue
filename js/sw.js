@@ -4,7 +4,7 @@ self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_NAME);
     await cache.addAll([
-      '/index.html','/script.js','/styles/components.css','/styles/index.css','/styles/animation.css','/icons/Computer.png','/icons/User.png']);
+      '/index.html','/js/chunk-vendors.c1b5370f.js.map','/js/chunk-vendors.c1b5370f.js','/js/app.084cc681.js','/js/app.084cc681.js.map','/css/app.f0d5f44a.css','/favicon.ico']);
   })());
 });
 
