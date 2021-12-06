@@ -15,9 +15,10 @@ self.addEventListener('fetch', function(event) {
         // Cache hit - return response
         if (response) {
           return response;
-        }else if(event.request[0]=="/"){
-        return fetch("/index.html?url="+event.request)
         }
+        //else if(event.request[0]=="/"){
+        //return fetch("/index.html?url="+event.request)
+        //}
         return fetch(event.request);
       }
     )
